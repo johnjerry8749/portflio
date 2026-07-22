@@ -1,11 +1,11 @@
-import Home from "./components/Home.jsx"
+import Home from "./components/Home.jsx";
 
 const App = () => {
   return (
     <div>
-      <Home />  
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,5 +1,5 @@
-import {Link} from 'react-router-dom'
-import '../css/Navbar.css'
+import { Link } from "react-router-dom";
+import "../css/Navbar.css";
 
 const Navbar = () => {
   return (
@@ -22,10 +22,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div
-            className="collapse navbar-collapse"
-            id="navbarTogglerDemo02"
-          >
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" to="/">
@@ -55,7 +52,7 @@ const Navbar = () => {
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

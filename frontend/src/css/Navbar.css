@@ -1,4 +1,3 @@
-
 /* Mobile styles (default) */
 .custom-navbar {
   background-color: white;
@@ -16,7 +15,7 @@
 
 .custom-navbar .navbar-brand {
   font-weight: 700;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   color: #dc3545;
   letter-spacing: 0.5px;
   margin-bottom: 0;
@@ -36,7 +35,6 @@
 }
 
 .custom-navbar .navbar-toggler-icon {
-  
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -57,7 +55,6 @@
 
 .custom-navbar .nav-link:hover,
 .custom-navbar .nav-link.active {
- 
   color: #dc3545 !important;
 }
 
@@ -77,8 +74,8 @@
 
   .custom-navbar .navbar-brand {
     color: white;
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 2.1rem;
+    font-weight: 600;
     margin-right: 0;
   }
 
@@ -108,7 +105,6 @@
 
   .custom-navbar .nav-link:hover {
     color: #010000 !important;
-    
   }
 
   .custom-navbar .nav-link:hover::after {
