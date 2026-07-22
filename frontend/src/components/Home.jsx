@@ -5,10 +5,10 @@ const Home = () => {
     <div>
       <Navbar />
 
-      <div className="Banner p-3 border border-danger d-flex gap-3 justify-content-center bg-danger ">
-        <div className="container text-center mt-4">
+      <div className="Banner p-3 d-flex gap-3 justify-content-center bg-danger ">
+        <div className="container text-center mt-5">
           <div className="row align-items-start  gap-3 vh-100">
-            <div className="col border p-3 fs-1 fw-bolder text-light">
+            <div className="col p-3 fs-1 fw-bolder text-light">
               <div className="banner-textbox m-3 p-3">
                 <h2 className="row fs-2 fw-bolder text-light">I'm</h2>
                 <h1 className="row fs-1 fw-bolder text-light">
