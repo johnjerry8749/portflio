@@ -2,11 +2,16 @@ import Photos from "../assets/photo.png";
 const About = () => {
   return (
     <div className="about-section p-3 bg-light">
-      <div className="row border border-danger p-4 gap-3">
-        <div className="col-6 col-sm-4 p-2">
-          <img src={Photos} alt="Profile" className="img-fluid" />
+      <div className="row p-2 ">
+        <div className="col-12 col-lg-6 py-3 ">
+          <img
+            src={Photos}
+            alt="Profile"
+            className="img-fluid w-100 h-100 object-fit-cover"
+          />
         </div>
-        <div className="col-6 col-sm-4 mx-auto">
+
+        <div className="col-12 col-lg-6  p-4 mt-2 ">
           <div className=" w-auto d-flex gap-1 align-items-center">
             <div
               className="border  border-danger border-2"
