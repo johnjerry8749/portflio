@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "../layout/Navbar.jsx";
+import About from "./About.jsx"
 import photos from "../assets/photo.png"
 
 const Home = () => {
@@ -40,7 +41,7 @@ const Home = () => {
 
       <div className="Banner p-3 d-flex gap-3 justify-content-center bg-danger ">
         <div className="container mt-4">
-          <div className="row align-items-start gap-3 vh-100 justify-content-center">
+          <div className="row align-items-start gap-3 vh-90 justify-content-center">
             <div className="col p-3 fs-1 fw-bolder text-light text-start">
               <div className="banner-textbox m-3 p-3">
                 <h2 className="fs-2 fw-bolder text-light">I'm</h2>
@@ -111,6 +112,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <About />
     </div>
   );
 };
