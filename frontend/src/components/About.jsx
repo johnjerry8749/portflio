@@ -65,13 +65,166 @@ const About = () => {
               </button>
             </div>
           </div>
-          
-          <div className="mt-3 border border-danger">
-            <h1 className="fs-4 fw-bold text-dark">SKILLS</h1>
+
+          <div className="mt-3  rounded overflow-hidden">
+            <div className="p-3 bg-white">
+              <h1 className="fs-4 fw-bold text-dark mb-3">SKILLS</h1>
+              <h2 className="fs-5 fw-bold text-dark mb-3">Technical Skills</h2>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">IT Support & Troubleshooting</span>
+                  <span className="text-muted">95%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "95%" }}
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Hardware & Software Installation</span>
+                  <span className="text-muted">90%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "90%" }}
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Networking Fundamentals</span>
+                  <span className="text-muted">88%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "88%" }}
+                    aria-valuenow="88"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">HTML, CSS, JavaScript, SQL</span>
+                  <span className="text-muted">92%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "92%" }}
+                    aria-valuenow="92"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">React.js & Node.js</span>
+                  <span className="text-muted">90%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "90%" }}
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Database Integration</span>
+                  <span className="text-muted">87%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "87%" }}
+                    aria-valuenow="87"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Microsoft Office Suite</span>
+                  <span className="text-muted">90%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "90%" }}
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-0">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Graphic Design Basics</span>
+                  <span className="text-muted">80%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "80%" }}
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mt-4">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Data Analysis with Microsoft Excel</span>
+                  <span className="text-muted">90%</span>
+                </div>
+                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "90%" }}
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-
-
-
 
         </div>
       </div>
