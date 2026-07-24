@@ -22,7 +22,7 @@ const About = () => {
               style={{ width: "1%" }}
             ></div>
 
-            <h3 className="fs-5 text-dark">ABOUT ME</h3>
+            <h3 className="fs-5 text-dark text-muted">ABOUT ME</h3>
           </div>
           <h2 className="fs-3 fw-bolder text-dark mt-2">CAREER OBJECTIVE</h2>
           <p className="text-muted">
@@ -34,10 +34,16 @@ const About = () => {
             passion for solving technical problems and supporting users
             effectively.
           </p>
-            <h2 className="fs-3 fw-bolder text-dark mt-3 P-3">EDUCATION</h2>
-            <p className="text-muted">
-              Bachelor of Science in Computer Science
-            </p>
+          <div classsName=" mt-3">
+            <div className=" border border-dangr mt-2">
+              <h1 className="fs-4 fw-bold text-dark ">CERTIFICATIONS</h1>
+              <p className="text-muted">
+                • CompTIA Tech+ Certification, 2025 <br />
+                (Validates core IT fundamentals, troubleshooting, networking,
+                security, and technical support skills). <br />
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
