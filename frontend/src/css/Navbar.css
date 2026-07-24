@@ -3,6 +3,10 @@
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 0.75rem 0.5rem !important;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  transition: all 0.3s ease-in-out;
 }
 
 .custom-navbar .container-fluid {
@@ -66,6 +70,12 @@
     padding: 1.25rem 1.5rem !important;
   }
 
+  .custom-navbar.scrolled {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid #eee;
+  }
+
   .custom-navbar .container-fluid {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
@@ -77,6 +87,11 @@
     font-size: 2.1rem;
     font-weight: 600;
     margin-right: 0;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .custom-navbar.scrolled .navbar-brand {
+    color: #dc3545;
   }
 
   .custom-navbar .navbar-toggler {
@@ -90,6 +105,10 @@
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     display: inline-block;
+  }
+
+  .custom-navbar.scrolled .nav-link {
+    color: #333 !important;
   }
 
   .custom-navbar .nav-link::after {

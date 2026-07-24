@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../layout/Navbar.jsx";
-import About from "./About.jsx"
-import photos from "../assets/photo.png"
+import About from "./About.jsx";
+import photos from "../assets/photo.png";
 
 const Home = () => {
   const titles = ["web developer", "App developer", "UI/UX designer"];
@@ -41,7 +41,7 @@ const Home = () => {
 
       <div className="Banner p-3 d-flex gap-3 justify-content-center bg-danger ">
         <div className="container mt-4">
-          <div className="row align-items-start gap-3 vh-90 justify-content-center">
+          <div className="row align-items-start gap-3 vh-100 justify-content-center">
             <div className="col p-3 fs-1 fw-bolder text-light text-start">
               <div className="banner-textbox m-3 p-3">
                 <h2 className="fs-2 fw-bolder text-light">I'm</h2>
@@ -103,10 +103,7 @@ const Home = () => {
             </div>
             <div className="col-5 d-none p-2 d-lg-block">
               <div className="banner-image p-3 border">
-                <img
-                  src={photos}
-                  className="img-fluid "
-                />
+                <img src={photos} className="img-fluid " />
               </div>
             </div>
           </div>

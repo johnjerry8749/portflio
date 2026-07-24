@@ -24,12 +24,20 @@ const About = () => {
 
             <h3 className="fs-5 text-dark">ABOUT ME</h3>
           </div>
-
+          <h2 className="fs-3 fw-bolder text-dark mt-2">CAREER OBJECTIVE</h2>
           <p className="text-muted">
-            I am a passionate web developer with experience in creating
-            responsive and user-friendly websites. I specialize in React,
-            JavaScript, and modern web technologies.
+            Detail-oriented IT Support & Web Developer with hands-on experience
+            in front-end and full-stack web development. Certified CompTIA Tech+
+            professional with strong foundational knowledge in hardware,
+            software, networking, troubleshooting, and security concepts.
+            Skilled in HTML, CSS, JavaScript, React, PHP, and Word Press, with a
+            passion for solving technical problems and supporting users
+            effectively.
           </p>
+            <h2 className="fs-3 fw-bolder text-dark mt-3 P-3">EDUCATION</h2>
+            <p className="text-muted">
+              Bachelor of Science in Computer Science
+            </p>
         </div>
       </div>
     </div>

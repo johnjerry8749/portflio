@@ -1,10 +1,24 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg custom-navbar">
+      <nav
+        className={`navbar navbar-expand-lg custom-navbar ${scrolled ? "scrolled" : ""}`}
+      >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             Nwadike Chukwuemeka
