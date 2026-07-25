@@ -73,10 +73,15 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">IT Support & Troubleshooting</span>
+                  <span className="text-dark">
+                    IT Support & Troubleshooting
+                  </span>
                   <span className="text-muted">95%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -90,10 +95,15 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Hardware & Software Installation</span>
+                  <span className="text-dark">
+                    Hardware & Software Installation
+                  </span>
                   <span className="text-muted">90%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -107,27 +117,15 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Networking Fundamentals</span>
-                  <span className="text-muted">88%</span>
-                </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
-                  <div
-                    className="progress-bar bg-danger"
-                    role="progressbar"
-                    style={{ width: "88%" }}
-                    aria-valuenow="88"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  />
-                </div>
-              </div>
-
-              <div className="mb-3">
-                <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">HTML, CSS, JavaScript, SQL</span>
+                  <span className="text-dark">
+                    Frontend Developer & Backend Developer
+                  </span>
                   <span className="text-muted">92%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -141,10 +139,15 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">React.js & Node.js</span>
+                  <span className="text-dark">
+                    React.js|| Node.js ||API Development
+                  </span>
                   <span className="text-muted">90%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -158,10 +161,13 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Database Integration</span>
+                  <span className="text-dark">Database Management in Excel</span>
                   <span className="text-muted">87%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -175,10 +181,13 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Microsoft Office Suite</span>
+                  <span className="text-dark">Microsoft Office Specialist</span>
                   <span className="text-muted">90%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -192,15 +201,20 @@ const About = () => {
 
               <div className="mb-0">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Graphic Design Basics</span>
-                  <span className="text-muted">80%</span>
+                  <span className="text-dark">
+                    Problem Solving & Team Collaboration
+                  </span>
+                  <span className="text-muted">91%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
-                    style={{ width: "80%" }}
-                    aria-valuenow="80"
+                    style={{ width: "91%" }}
+                    aria-valuenow="91"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   />
@@ -209,15 +223,18 @@ const About = () => {
 
               <div className="mt-4">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Data Analysis with Microsoft Excel</span>
-                  <span className="text-muted">90%</span>
+                  <span className="text-dark">Communication Skills</span>
+                  <span className="text-muted">89%</span>
                 </div>
-                <div className="progress bg-secondary" style={{ height: "10px" }}>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
-                    style={{ width: "90%" }}
-                    aria-valuenow="90"
+                    style={{ width: "89%" }}
+                    aria-valuenow="89"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   />
@@ -225,7 +242,6 @@ const About = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
