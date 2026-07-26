@@ -16,7 +16,6 @@ const Experience = () => {
         <div className="row gx-3 gy-5">
           <div className="col-12 col-lg-6 d-flex justify-content-lg-end">
             <div className="card shadow-sm border-0 rounded-3 p-4" style={{ maxWidth: "520px" }}>
-              <span className="badge bg-danger text-uppercase mb-3">2024 - Now</span>
               <h4 className="fs-5 fw-bold">Research Assistant</h4>
               <p className="text-danger mb-1">GenAI-Driven RAG Dialogue System</p>
               <p className="text-muted mb-2">ABC-ATEC Electronics Group</p>
@@ -28,9 +27,22 @@ const Experience = () => {
             </div>
           </div>
 
+          <div className="col-12 col-lg-6 d-flex justify-content-lg-start ">
+            <div className="card shadow-sm border-0 rounded-3 p-4" style={{ maxWidth: "520px" }}>
+              <span className="badge bg-danger text-uppercase mb-3">2024 - 2025</span> 
+            </div>
+          </div>
+
+            <div className="col-12 col-lg-6 d-flex justify-content-lg-end">
+            <div className="card shadow-sm border-0 rounded-3 p-4" style={{ maxWidth: "520px" }}>
+              <span className="badge bg-danger text-uppercase mb-3">2024 - Now</span>
+              
+
+            </div>
+          </div>
+
           <div className="col-12 col-lg-6 d-flex justify-content-lg-start">
             <div className="card shadow-sm border-0 rounded-3 p-4" style={{ maxWidth: "520px" }}>
-              <span className="badge bg-danger text-uppercase mb-3">2024 - 2025</span>
               <h4 className="fs-5 fw-bold">Research Assistant</h4>
               <p className="text-danger mb-1">GenAI-Driven ESG Report Generation</p>
               <p className="text-muted mb-2">Industrial Technology Research Institute (ITRI)</p>
@@ -41,6 +53,9 @@ const Experience = () => {
               </ul>
             </div>
           </div>
+
+
+
         </div>
       </div>
     </div>
