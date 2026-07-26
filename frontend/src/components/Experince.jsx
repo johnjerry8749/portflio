@@ -27,15 +27,16 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="col-12 col-lg-6 d-flex justify-content-lg-start ">
-            <div className="card shadow-sm border-0 rounded-3 p-4" style={{ maxWidth: "520px" }}>
-              <span className="badge bg-danger text-uppercase mb-3">2024 - 2025</span> 
+          <div className="col-12 col-lg-6 d-flex justify-content-lg-start p-2 ">
+            <div className="card shadow-sm border-0 rounded-3 p-3" style={{ maxWidth: "520px" }}>
+                <div className="border border-danger rounded-circle"></div>
+              <h1 className="badge bg-danger text-uppercase mb-3">2024 - 2025</h1> 
             </div>
           </div>
 
             <div className="col-12 col-lg-6 d-flex justify-content-lg-end">
             <div className="card shadow-sm border-0 rounded-3 p-4" style={{ maxWidth: "520px" }}>
-              <span className="badge bg-danger text-uppercase mb-3">2024 - Now</span>
+              <h1 className="badge bg-danger text-uppercase mb-3">2024 - Now</h1>
               
 
             </div>
