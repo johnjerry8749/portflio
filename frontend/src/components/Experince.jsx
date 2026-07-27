@@ -47,7 +47,7 @@ const Experience = () => {
                 <div className="col-12 col-lg-5 d-flex justify-content-lg-end">
                   {item.side === "left" && (
                     <div className="position-relative" style={{ maxWidth: "540px", width: "100%" }}>
-                      <div className="card shadow-sm border-0 rounded-3 p-4" style={{ width: "100%", minHeight: "230px" }}>
+                      <div className="card shadow-sm border-0 rounded-3 p-4" style={{ width: "100%", minHeight: "220px" }}>
                         <div className="d-block d-lg-none mb-3">
                           <span className="badge bg-danger text-uppercase">{item.date}</span>
                         </div>
@@ -68,9 +68,9 @@ const Experience = () => {
                           backgroundColor: "#fff",
                           borderLeft: "4px solid #dc3545",
                           borderBottom: "4px solid #dc3545",
-                          top: "36px",
+                          top: "50%",
                           right: "-8px",
-                          transform: "rotate(45deg)",
+                          transform: "translateY(-50%) rotate(45deg)",
                         }}
                       />
                     </div>
@@ -78,7 +78,7 @@ const Experience = () => {
                 </div>
 
                 <div className="col-12 col-lg-2 d-flex justify-content-center align-items-center">
-                  <div className="d-none d-lg-flex flex-column align-items-center position-relative" style={{ top: "50%", transform: "translateY(-50%) translateX(10px)" }}>
+                  <div className="d-none d-lg-flex flex-column align-items-center justify-content-center h-100" style={{ transform: "translateX(10px)" }}>
                     <div className="rounded-circle border border-danger bg-white" style={{ width: "18px", height: "18px", zIndex: 2 }} />
                     <span className="text-danger fw-semibold mt-3">{item.date}</span>
                   </div>
@@ -87,7 +87,7 @@ const Experience = () => {
                 <div className="col-12 col-lg-5 d-flex justify-content-lg-start">
                   {item.side === "right" && (
                     <div className="position-relative" style={{ maxWidth: "540px", width: "100%" }}>
-                      <div className="card shadow-sm border-0 rounded-3 p-4" style={{ width: "100%", minHeight: "230px" }}>
+                      <div className="card shadow-sm border-0 rounded-3 p-4" style={{ width: "100%", minHeight: "220px" }}>
                         <div className="d-block d-lg-none mb-3">
                           <span className="badge bg-danger text-uppercase">{item.date}</span>
                         </div>
