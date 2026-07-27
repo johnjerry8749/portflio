@@ -28,17 +28,33 @@ const Experience = () => {
 
   return (
     <div className="p-2 mt-2">
-      <div className="w-auto d-flex mb-4 justify-content-center gap-1 align-items-center">
-        <div className="border border-danger border-2" style={{ width: "5%" }}></div>
-        <div className="border border-danger border-2" style={{ width: "1%" }}></div>
+      <div className="w-auto d-flex  justify-content-center gap-1 align-items-center">
+        <div
+          className="border border-danger border-2"
+          style={{ width: "5%" }}
+        ></div>
+        <div
+          className="border border-danger border-2"
+          style={{ width: "1%" }}
+        ></div>
         <h3 className="fs-5 text-dark text-muted">Experience</h3>
       </div>
 
-      <div className="position-relative mt-5 px-3 px-lg-5">
+      <div className="position-relative  px-3 px-lg-5">
         <div
           className="d-none d-lg-block position-absolute top-0 start-50 translate-middle-x bg-danger"
           style={{ width: "4px", height: "100%" }}
         />
+      </div>
+      <div className=" p-2 p-lg-2  border border-danger ">
+        <h1 className="fs-2 text-dark text-center fw-bolder text-muted">
+          My Resume
+        </h1>
+        <div className="d-flex justify-content-center gap-3 flex-wrap">
+            
+
+
+        </div>
       </div>
     </div>
   );
