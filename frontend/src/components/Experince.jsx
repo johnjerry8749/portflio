@@ -77,8 +77,8 @@ const Experience = () => {
                   )}
                 </div>
 
-                <div className="col-12 col-lg-2 d-flex justify-content-center align-items-start position-relative">
-                  <div className="d-none d-lg-flex flex-column align-items-center position-relative" style={{ marginTop: "28px" }}>
+                <div className="col-12 col-lg-2 d-flex justify-content-center align-items-center">
+                  <div className="d-none d-lg-flex flex-column align-items-center position-relative" style={{ top: "50%", transform: "translateY(-50%)" }}>
                     <div className="rounded-circle border border-danger bg-white" style={{ width: "18px", height: "18px" }} />
                     <span className="text-danger fw-semibold mt-3">{item.date}</span>
                   </div>
@@ -108,9 +108,9 @@ const Experience = () => {
                           backgroundColor: "#fff",
                           borderRight: "4px solid #dc3545",
                           borderTop: "4px solid #dc3545",
-                          top: "36px",
+                          top: "50%",
                           left: "-8px",
-                          transform: "rotate(45deg)",
+                          transform: "translateY(-50%) rotate(45deg)",
                         }}
                       />
                     </div>
