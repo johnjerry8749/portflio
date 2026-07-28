@@ -50,10 +50,12 @@ const Experience = () => {
         <h1 className="fs-2 text-dark text-center fw-bolder text-muted">
           My Resume
         </h1>
-        <div className="d-flex justify-content-center gap-3 flex-wrap">
-            
-
-
+        <div className="row d-flex justify-content-center gap-3 m-auto flex-wrap">
+          <div className=" p-2 border border-danger d-flex justify-content-around gap-2 ">
+            <div class="col-4 border border-danger">One of two columns</div>
+            <div class="col-4 border border-danger fw-bolder bg-danger" style={{width:"2px", height:"160px"}}>One of onecolumns</div>
+            <div class="col-4 border border-danger">One of two columns</div>
+          </div>
         </div>
       </div>
     </div>
