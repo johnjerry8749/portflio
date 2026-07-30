@@ -34,10 +34,10 @@ const Experience = () => {
     "AI Agent",
   ];
   
-  const DevTools = [
-    "Git Hub & Git",
+  const devTools = [
+    "GitHub & Git",
     "Vercel & Render",
-    "Figma & Canvas",
+    "Figma & Canva",
     "Docker",
   ];
   
@@ -214,10 +214,10 @@ const Experience = () => {
         <div className="bg-danger p-3 p-lg-4">
              <h6 className="fw-bold mb-0 text-black text-center p-3">DEVELOPMENT & TOOLS</h6>
           <div className="row gx-2 gy-3 justify-content-center">
-            {skills.map((DevTools, index) => (
+            {devTools.map((tool, index) => (
               <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
                 <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
-                  {DevTools}
+                  {tool}
                 </div>
               </div>
             ))}
