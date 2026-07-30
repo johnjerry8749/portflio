@@ -33,7 +33,13 @@ const Experience = () => {
     "JavaScript",
     "AI Agent",
   ];
-
+  
+  const DevTools = [
+    "Git Hub & Git",
+    "Vercel & Render",
+    "Figma & Canvas",
+    "Docker",
+  ];
   
   return (
     <div className="p-2 mt-2">
