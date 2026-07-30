@@ -52,15 +52,28 @@ const Experience = () => {
               {item.side === "left" ? (
                 <>
                   <div className="col-12 col-lg-5 d-flex justify-content-lg-end">
-                    <div className="position-relative" style={{ width: "100%", maxWidth: "540px" }}>
-                      <div className="card shadow-sm border-0 rounded-3 p-4" style={{ minHeight: "220px" }}>
+                    <div
+                      className="position-relative"
+                      style={{ width: "100%", maxWidth: "540px" }}
+                    >
+                      <div
+                        className="card shadow-sm border-0 rounded-3 p-4"
+                        style={{ minHeight: "220px" }}
+                      >
                         <div className="d-flex d-lg-none mb-3 justify-content-center">
-                          <span className="badge bg-danger text-uppercase">{item.date}</span>
+                          <span className="badge bg-danger text-uppercase">
+                            {item.date}
+                          </span>
                         </div>
                         <h4 className="fs-4 fw-bold">{item.title}</h4>
                         <p className="text-danger mb-1">{item.subtitle}</p>
-                        <p className="text-muted mb-3 fst-italic">{item.company}</p>
-                        <ul className="mb-0 text-muted" style={{ paddingLeft: "1rem" }}>
+                        <p className="text-muted mb-3 fst-italic">
+                          {item.company}
+                        </p>
+                        <ul
+                          className="mb-0 text-muted"
+                          style={{ paddingLeft: "1rem" }}
+                        >
                           {item.details.map((detail, detailIndex) => (
                             <li key={detailIndex}>{detail}</li>
                           ))}
@@ -84,8 +97,13 @@ const Experience = () => {
 
                   <div className="col-12 col-lg-2 d-none d-lg-flex justify-content-center">
                     <div className="d-flex flex-column align-items-center text-center">
-                      <div className="rounded-circle border border-danger bg-white" style={{ width: "18px", height: "18px", zIndex: 2 }} />
-                      <span className="mt-3 text-danger fw-semibold">{item.date}</span>
+                      <div
+                        className="rounded-circle border border-danger bg-white"
+                        style={{ width: "18px", height: "18px", zIndex: 2 }}
+                      />
+                      <span className="mt-3 text-danger fw-semibold">
+                        {item.date}
+                      </span>
                     </div>
                   </div>
 
@@ -97,21 +115,39 @@ const Experience = () => {
 
                   <div className="col-12 col-lg-2 d-none d-lg-flex justify-content-center">
                     <div className="d-flex flex-column align-items-center text-center">
-                      <div className="rounded-circle border border-danger bg-white" style={{ width: "18px", height: "18px", zIndex: 2 }} />
-                      <span className="mt-3 text-danger fw-semibold">{item.date}</span>
+                      <div
+                        className="rounded-circle border border-danger bg-white"
+                        style={{ width: "18px", height: "18px", zIndex: 2 }}
+                      />
+                      <span className="mt-3 text-danger fw-semibold">
+                        {item.date}
+                      </span>
                     </div>
                   </div>
 
                   <div className="col-12 col-lg-5 d-flex justify-content-lg-start">
-                    <div className="position-relative" style={{ width: "100%", maxWidth: "540px" }}>
-                      <div className="card shadow-sm border-0 rounded-3 p-4" style={{ minHeight: "220px" }}>
+                    <div
+                      className="position-relative"
+                      style={{ width: "100%", maxWidth: "540px" }}
+                    >
+                      <div
+                        className="card shadow-sm border-0 rounded-3 p-4"
+                        style={{ minHeight: "220px" }}
+                      >
                         <div className="d-flex d-lg-none mb-3 justify-content-center">
-                          <span className="badge bg-danger text-uppercase">{item.date}</span>
+                          <span className="badge bg-danger text-uppercase">
+                            {item.date}
+                          </span>
                         </div>
                         <h4 className="fs-4 fw-bold">{item.title}</h4>
                         <p className="text-danger mb-1">{item.subtitle}</p>
-                        <p className="text-muted mb-3 fst-italic">{item.company}</p>
-                        <ul className="mb-0 text-muted" style={{ paddingLeft: "1rem" }}>
+                        <p className="text-muted mb-3 fst-italic">
+                          {item.company}
+                        </p>
+                        <ul
+                          className="mb-0 text-muted"
+                          style={{ paddingLeft: "1rem" }}
+                        >
                           {item.details.map((detail, detailIndex) => (
                             <li key={detailIndex}>{detail}</li>
                           ))}
@@ -141,6 +177,5 @@ const Experience = () => {
     </div>
   );
 };
-
 
 export default Experience;
