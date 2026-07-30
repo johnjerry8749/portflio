@@ -179,8 +179,16 @@ const Experience = () => {
             <h1 className="fs-2 p-2 fw-bolder ">Technical Stack & Soft Skills</h1>
             <p className="fw-bold">Here are the main technologies, languages, and tools I use in my projects and research.</p>
             <h6 className="fw-bold mt-3 ">PROGRAMMING & AI STACK</h6>
-        <div className="d-flex border border-danger justify-content-center gap-1 p-2">
-            
+        <div className="row m-auto d-flex border border-danger justify-content-center gap-1 p-2">
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+
         </div>
         </div>
         
