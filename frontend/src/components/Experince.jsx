@@ -34,6 +34,7 @@ const Experience = () => {
     "AI Agent",
   ];
 
+  
   return (
     <div className="p-2 mt-2">
       <div className="w-auto d-flex  justify-content-center gap-1 align-items-center">
@@ -185,13 +186,14 @@ const Experience = () => {
       <div className="border border-danger mt-4 rounded-4 overflow-hidden">
         <div className="bg-danger text-center text-white px-4 py-4">
           <h1 className="fs-2 fw-bolder mb-2">Technical Stack & Soft Skills</h1>
-          <p className="fw-bold mb-3">
+          <p className="fw-bold">
             Here are the main technologies, languages, and tools I use in my projects and research.
           </p>
-          <h6 className="fw-bold mb-0 text-black">PROGRAMMING & AI STACK</h6>
+         
         </div>
 
         <div className="bg-danger p-3 p-lg-4">
+             <h6 className="fw-bold mb-0 text-black text-center p-3">PROGRAMMING & AI STACK</h6>
           <div className="row gx-2 gy-3 justify-content-center">
             {skills.map((skill, index) => (
               <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
@@ -201,6 +203,20 @@ const Experience = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="row m-auto">
+        <div className="bg-danger p-3 p-lg-4">
+             <h6 className="fw-bold mb-0 text-black text-center p-3">DEVELOPMENT & TOOLS</h6>
+          <div className="row gx-2 gy-3 justify-content-center">
+            {skills.map((skill, index) => (
+              <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
+                <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
+                  {skill}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
         </div>
       </div>
 
@@ -217,6 +233,7 @@ const Experience = () => {
           box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.75);
         }
       `}</style>
+      
     </div>
   );
 };
