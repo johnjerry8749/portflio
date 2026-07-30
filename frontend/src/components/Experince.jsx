@@ -179,15 +179,12 @@ const Experience = () => {
             <h1 className="fs-2 p-2 fw-bolder ">Technical Stack & Soft Skills</h1>
             <p className="fw-bold">Here are the main technologies, languages, and tools I use in my projects and research.</p>
             <h6 className="fw-bold mt-3 ">PROGRAMMING & AI STACK</h6>
-        <div className="row m-auto d-flex border border-danger justify-content-center gap-1 p-2">
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
-             <div className="col-2 col-sm-2 border border-white rounded-pill shadow"> columns</div>
+        <div className="row m-auto d-flex border border-danger justify-content-center gap-1 p-2 ">
+             <div className="col-4 col-sm-3 border border-white rounded-pill shadow"> React.js & Node.js</div>
+             <div className="col-4 col-sm-3 border border-white rounded-pill shadow"> Html & Css-Boostrap</div>
+             <div className="col-4 col-sm-3 border border-white rounded-pill shadow"> PostgreSQl & Supabase</div>
+             <div className="col-3 col-sm-3 border border-white rounded-pill shadow"> JavaScript</div>
+             <div className="col-4 col-sm-3 border border-white rounded-pill shadow"> Ai Agent</div>
 
         </div>
         </div>
