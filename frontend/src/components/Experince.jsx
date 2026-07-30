@@ -174,6 +174,12 @@ const Experience = () => {
           ))}
         </div>
       </div>
+      <div className="border border-danger mt-1">
+        <div className="row m-auto bg-danger text-center text-white">
+            <h1 className="fs-2 p-2 fw-bolder ">Technical Stack & Soft Skills</h1>
+            <p className="fw-bold">Here are the main technologies, languages, and tools I use in my projects and research.</p>
+        </div>
+      </div>
     </div>
   );
 };
