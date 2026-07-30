@@ -214,10 +214,10 @@ const Experience = () => {
         <div className="bg-danger p-3 p-lg-4">
              <h6 className="fw-bold mb-0 text-black text-center p-3">DEVELOPMENT & TOOLS</h6>
           <div className="row gx-2 gy-3 justify-content-center">
-            {skills.map((skill, index) => (
+            {skills.map((DevTools, index) => (
               <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
                 <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
-                  {skill}
+                  {DevTools}
                 </div>
               </div>
             ))}
