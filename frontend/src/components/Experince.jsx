@@ -178,7 +178,10 @@ const Experience = () => {
         <div className="row m-auto bg-danger text-center text-white">
             <h1 className="fs-2 p-2 fw-bolder ">Technical Stack & Soft Skills</h1>
             <p className="fw-bold">Here are the main technologies, languages, and tools I use in my projects and research.</p>
-        <div className="d-flex border border-danger justify-content-center gap-1 p-2"></div>
+            <h6 className="fw-bold mt-3 ">PROGRAMMING & AI STACK</h6>
+        <div className="d-flex border border-danger justify-content-center gap-1 p-2">
+            
+        </div>
         </div>
         
       </div>
