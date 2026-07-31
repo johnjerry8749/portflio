@@ -8,6 +8,11 @@ const Contact = () => {
       <div className="contact-grid">
         <div className="contact-info-panel">
           <div className="contact-info-box">
+            <img
+              className="contact-photo"
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
+              alt="Cartoon profile"
+            />
             <h2>Jun-Yu Wu</h2>
             <h3>National Taipei University</h3>
             <p>+886 988307166</p>
@@ -66,7 +71,7 @@ const Contact = () => {
           align-items: center;
           justify-content: center;
           background: #f7f4f4;
-          padding: 40px 36px;
+          padding: 20px;
         }
 
         .contact-info-box {
@@ -75,16 +80,26 @@ const Contact = () => {
           text-align: left;
         }
 
+        .contact-photo {
+          width: 100%;
+          height: 320px;
+          object-fit: cover;
+          border-radius: 18px;
+          display: block;
+          margin-bottom: 22px;
+          box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+        }
+
         .contact-info-box h2 {
-          margin: 0 0 18px;
+          margin: 0 0 14px;
           font-size: clamp(2rem, 2vw, 3rem);
           font-weight: 700;
           color: #111;
         }
 
         .contact-info-box h3 {
-          margin: 0 0 18px;
-          font-size: clamp(1.3rem, 1.5vw, 2rem);
+          margin: 0 0 14px;
+          font-size: clamp(1.2rem, 1.5vw, 2rem);
           font-weight: 500;
           color: #111;
         }
@@ -115,12 +130,12 @@ const Contact = () => {
         }
 
         .field-group {
-          margin-bottom: 24px;
+          margin-bottom: 18px;
         }
 
         .field-group label {
           display: block;
-          margin-bottom: 12px;
+          margin-bottom: 8px;
           color: #fff;
           font-size: clamp(1.1rem, 1.3vw, 2rem);
           font-weight: 500;
@@ -134,7 +149,7 @@ const Contact = () => {
           border-bottom: 2px solid rgba(255, 255, 255, 0.9);
           background: transparent;
           color: #fff;
-          padding: 10px 0 8px;
+          padding: 8px 0 6px;
           font-size: 1.05rem;
           outline: none;
           resize: none;
