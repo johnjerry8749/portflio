@@ -1,5 +1,3 @@
-import photo from "../assets/photo.png";
-
 const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -52,49 +50,50 @@ const Contact = () => {
       <style>{`
         .contact-section {
           width: 100%;
-          background: #eee8e8;
+          background: #f4f1f1;
           overflow: hidden;
         }
 
         .contact-grid {
           display: grid;
-          grid-template-columns: 1fr 1.3fr;
+          grid-template-columns: 0.95fr 1.25fr;
           min-height: 760px;
+          background: #fff;
         }
 
         .contact-info-panel {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #fffdfc;
-          padding: 40px 30px;
+          background: #f7f4f4;
+          padding: 40px 36px;
         }
 
         .contact-info-box {
-          width: min(100%, 420px);
+          width: min(100%, 440px);
           color: #1d1d1d;
           text-align: left;
         }
 
         .contact-info-box h2 {
           margin: 0 0 18px;
-          font-size: clamp(2rem, 2.2vw, 3rem);
+          font-size: clamp(2rem, 2vw, 3rem);
           font-weight: 700;
-          color: #1d1d1d;
+          color: #111;
         }
 
         .contact-info-box h3 {
           margin: 0 0 18px;
-          font-size: clamp(1.2rem, 1.5vw, 2rem);
+          font-size: clamp(1.3rem, 1.5vw, 2rem);
           font-weight: 500;
-          color: #1d1d1d;
+          color: #111;
         }
 
         .contact-info-box p,
         .contact-info-box a {
-          margin: 0 0 14px;
-          font-size: clamp(1rem, 1.1vw, 1.4rem);
-          color: #1d1d1d;
+          margin: 0 0 10px;
+          font-size: clamp(1rem, 1vw, 1.4rem);
+          color: #111;
           text-decoration: none;
         }
 
@@ -106,25 +105,25 @@ const Contact = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #fffdfc;
-          padding: 40px 60px;
+          background: #ef1d0e;
+          padding: 40px 50px;
         }
 
         .contact-form {
           width: min(100%, 760px);
-          color: #b80000;
+          color: #fff;
         }
 
         .field-group {
-          margin-bottom: 28px;
+          margin-bottom: 24px;
         }
 
         .field-group label {
           display: block;
+          margin-bottom: 12px;
+          color: #fff;
           font-size: clamp(1.1rem, 1.3vw, 2rem);
           font-weight: 500;
-          color: #100d0d;
-          margin-bottom: 12px;
           letter-spacing: 0.02em;
         }
 
@@ -132,30 +131,30 @@ const Contact = () => {
         .field-group textarea {
           width: 100%;
           border: none;
-          border-bottom: 2px solid rgba(21, 18, 18, 0.9);
+          border-bottom: 2px solid rgba(255, 255, 255, 0.9);
           background: transparent;
-          color: #010101;
+          color: #fff;
           padding: 10px 0 8px;
-          font-size: 1.1rem;
+          font-size: 1.05rem;
           outline: none;
           resize: none;
         }
 
         .field-group input::placeholder,
         .field-group textarea::placeholder {
-          color: rgba(11, 11, 11, 0.7);
+          color: rgba(255, 255, 255, 0.7);
         }
 
         .field-group input:focus,
         .field-group textarea:focus {
-          border-bottom-color: #fffafa;
+          border-bottom-color: #fff;
         }
 
         .send-button {
           display: inline-block;
-          margin-top: 12px;
-          background: #f8f5f5;
-          color: #eb1d0f;
+          margin-top: 6px;
+          background: #fff;
+          color: #ef1d0e;
           border: none;
           min-width: 210px;
           padding: 18px 26px;
@@ -163,12 +162,12 @@ const Contact = () => {
           font-weight: 700;
           cursor: pointer;
           transition: transform 0.2s ease, box-shadow 0.2s ease;
-          box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
         }
 
         .send-button:hover {
           transform: translateY(-2px);
-          box-shadow: 0 12px 22px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 12px 22px rgba(0, 0, 0, 0.14);
         }
 
         @media (max-width: 991px) {
@@ -176,12 +175,9 @@ const Contact = () => {
             grid-template-columns: 1fr;
           }
 
-          .contact-info-panel {
-            padding: 32px 20px 12px;
-          }
-
+          .contact-info-panel,
           .contact-form-panel {
-            padding: 20px 20px 40px;
+            padding: 32px 20px 40px;
           }
         }
       `}</style>
