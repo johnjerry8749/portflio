@@ -224,7 +224,12 @@ const Experience = () => {
           </div>
         </div>
         </div>
+        <div className="border border-danger p-2 ">
+            <h1 className="fs-5 fw-bold text-center tet-dark">Soft Skills</h1>
+        
+    </div>
       </div>
+    
 
       <style>{`
         .skill-pill {
