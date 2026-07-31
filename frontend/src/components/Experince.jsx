@@ -40,6 +40,8 @@ const Experience = () => {
     "Figma & Canva",
     "Docker",
   ];
+
+  
   
   return (
     <div className="p-2 mt-2">
@@ -224,8 +226,17 @@ const Experience = () => {
           </div>
         </div>
         </div>
-        <div className="border border-danger p-2 ">
-            <h1 className="fs-5 fw-bold text-center tet-dark">Soft Skills</h1>
+        <div className="border border-danger p-2 bg-danger">
+            <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
+           <div className="row gx-2 gy-3 justify-content-center">
+            {devTools.map((tool, index) => (
+              <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
+                <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
+                  {tool}
+                </div>
+              </div>
+            ))}
+          </div>
         
     </div>
       </div>
