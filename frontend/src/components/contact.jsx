@@ -13,10 +13,10 @@ const Contact = () => {
               src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
               alt="Cartoon profile"
             />
-            <h2>Jun-Yu Wu</h2>
-            <h3>National Taipei University</h3>
-            <p>+886 988307166</p>
-            <p>junyuwu8855@gmail.com</p>
+            <h2>Nwadike Chukwuemeka</h2>
+            <h3>S-Trinity Software Academy</h3>
+            <p>+234703401308</p>
+            <p>johnjerry8749@gmail.com</p>
             <a href="https://jun-yu-wu.github.io/" target="_blank" rel="noreferrer">
               Portfolio
             </a>
