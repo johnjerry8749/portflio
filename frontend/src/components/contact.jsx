@@ -8,8 +8,16 @@ const Contact = () => {
   return (
     <section className="contact-section">
       <div className="contact-grid">
-        <div className="contact-image-panel d-none">
-          <img src={photo} alt="Portrait" className="contact-image" />
+        <div className="contact-info-panel">
+          <div className="contact-info-box">
+            <h2>Jun-Yu Wu</h2>
+            <h3>National Taipei University</h3>
+            <p>+886 988307166</p>
+            <p>junyuwu8855@gmail.com</p>
+            <a href="https://jun-yu-wu.github.io/" target="_blank" rel="noreferrer">
+              Portfolio
+            </a>
+          </div>
         </div>
 
         <div className="contact-form-panel">
@@ -54,19 +62,44 @@ const Contact = () => {
           min-height: 760px;
         }
 
-        .contact-image-panel {
-          position: relative;
-          min-height: 500px;
-          overflow: hidden;
-          background: #242222;
+        .contact-info-panel {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #fffdfc;
+          padding: 40px 30px;
         }
 
-        .contact-image {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: center top;
-          display: block;
+        .contact-info-box {
+          width: min(100%, 420px);
+          color: #1d1d1d;
+          text-align: left;
+        }
+
+        .contact-info-box h2 {
+          margin: 0 0 18px;
+          font-size: clamp(2rem, 2.2vw, 3rem);
+          font-weight: 700;
+          color: #1d1d1d;
+        }
+
+        .contact-info-box h3 {
+          margin: 0 0 18px;
+          font-size: clamp(1.2rem, 1.5vw, 2rem);
+          font-weight: 500;
+          color: #1d1d1d;
+        }
+
+        .contact-info-box p,
+        .contact-info-box a {
+          margin: 0 0 14px;
+          font-size: clamp(1rem, 1.1vw, 1.4rem);
+          color: #1d1d1d;
+          text-decoration: none;
+        }
+
+        .contact-info-box a:hover {
+          text-decoration: underline;
         }
 
         .contact-form-panel {
@@ -143,12 +176,12 @@ const Contact = () => {
             grid-template-columns: 1fr;
           }
 
-          .contact-image-panel {
-            min-height: 320px;
+          .contact-info-panel {
+            padding: 32px 20px 12px;
           }
 
           .contact-form-panel {
-            padding: 32px 20px 40px;
+            padding: 20px 20px 40px;
           }
         }
       `}</style>
