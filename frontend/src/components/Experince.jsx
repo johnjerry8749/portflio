@@ -33,7 +33,7 @@ const Experience = () => {
     "JavaScript",
     "AI Agent",
   ];
-  
+
   const devTools = [
     "GitHub & Git",
     "Vercel & Render",
@@ -41,8 +41,12 @@ const Experience = () => {
     "Docker",
   ];
 
-  
-  
+  const soft = [
+    "Problem-solving & Resilience",
+    "Innovative & Strategic Thinking",
+    "Self-driven Learning & Time Management",
+  ];
+
   return (
     <div className="p-2 mt-2">
       <div className="w-auto d-flex  justify-content-center gap-1 align-items-center">
@@ -195,16 +199,21 @@ const Experience = () => {
         <div className="bg-danger text-center text-white px-4 py-4">
           <h1 className="fs-2 fw-bolder mb-2">Technical Stack & Soft Skills</h1>
           <p className="fw-bold">
-            Here are the main technologies, languages, and tools I use in my projects and research.
+            Here are the main technologies, languages, and tools I use in my
+            projects and research.
           </p>
-         
         </div>
 
         <div className="bg-danger p-3 p-lg-4">
-             <h6 className="fw-bold mb-0 text-black text-center p-3">PROGRAMMING & AI STACK</h6>
+          <h6 className="fw-bold mb-0 text-black text-center p-3">
+            PROGRAMMING & AI STACK
+          </h6>
           <div className="row gx-2 gy-3 justify-content-center">
             {skills.map((skill, index) => (
-              <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
+              <div
+                key={index}
+                className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center"
+              >
                 <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
                   {skill}
                 </div>
@@ -213,34 +222,25 @@ const Experience = () => {
           </div>
         </div>
         <div className="row m-auto">
-        <div className="bg-danger p-3 p-lg-4">
-             <h6 className="fw-bold mb-0 text-black text-center p-3">DEVELOPMENT & TOOLS</h6>
-          <div className="row gx-2 gy-3 justify-content-center">
-            {devTools.map((tool, index) => (
-              <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
-                <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
-                  {tool}
+          <div className="bg-danger p-3 p-lg-4">
+            <h6 className="fw-bold mb-0 text-black text-center p-3">
+              DEVELOPMENT & TOOLS
+            </h6>
+            <div className="row gx-2 gy-3 justify-content-center">
+              {devTools.map((tool, index) => (
+                <div
+                  key={index}
+                  className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center"
+                >
+                  <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
+                    {tool}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-        </div>
-        <div className="border border-danger p-2 bg-danger">
-            <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
-           <div className="row gx-2 gy-3 justify-content-center">
-            {devTools.map((tool, index) => (
-              <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-2 d-flex justify-content-center">
-                <div className="skill-pill border border-white rounded-pill shadow-sm px-3 py-2 text-center text-dark w-100">
-                  {tool}
-                </div>
-              </div>
-            ))}
-          </div>
-        
-    </div>
       </div>
-    
 
       <style>{`
         .skill-pill {
@@ -255,7 +255,6 @@ const Experience = () => {
           box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.75);
         }
       `}</style>
-      
     </div>
   );
 };
