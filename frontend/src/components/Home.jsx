@@ -3,7 +3,7 @@ import Navbar from "../layout/Navbar.jsx";
 import About from "./About.jsx";
 import photos from "../assets/photo.png";
 import Experince from "./Experince.jsx";
-import Contact from "./contact.jsx";
+import Message from "./message.jsx";
 
 const Home = () => {
   const titles = ["web developer", "App developer", "UI/UX designer"];
@@ -113,6 +113,7 @@ const Home = () => {
       </div>
       <About />
       <Experince />
+      <Message />
     </div>
   );
 };

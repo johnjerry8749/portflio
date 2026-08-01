@@ -1,0 +1,94 @@
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+}
+
+.contact-info {
+  animation: slideLeft 1s ease;
+}
+
+.contact-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.1);
+  animation: slideRight 1s ease;
+}
+
+.contact-card .form-control {
+  height: 52px;
+  border-radius: 12px;
+  transition: .3s;
+}
+
+.contact-card textarea.form-control {
+  height: auto;
+  resize: none;
+}
+
+.contact-card .form-control:focus {
+  border-color: #000;
+  box-shadow: 0 0 15px rgba(0,0,0,.12);
+  transform: translateY(-2px);
+}
+
+.contact-card button {
+  border-radius: 12px;
+  transition: .4s;
+}
+
+.contact-card button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(70px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 991px) {
+  .contact-section {
+    padding: 70px 0;
+    min-height: auto;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-card {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-card {
+    padding: 20px;
+  }
+
+  .contact-info h2 {
+    font-size: 2rem;
+  }
+}
