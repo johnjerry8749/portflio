@@ -1,7 +1,4 @@
 const Contact = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
 
   return (
     <section className="contact-section">
