@@ -1,7 +1,8 @@
 
 import "../css/message.css";
 
-const Contact = () => {
+
+const Message = () => {
   return (
     <section className="contact-section py-5">
       <div className="container">
@@ -90,4 +91,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Message;

@@ -1,4 +1,18 @@
 const Contact = () => {
+  const techLogos = [
+    {
+      name: "JavaScript",
+      src: "https://cdn.simpleicons.org/javascript/000000",
+    },
+    { name: "React", src: "https://cdn.simpleicons.org/react/61dafb" },
+    { name: "GitHub", src: "https://cdn.simpleicons.org/github/181717" },
+    { name: "Git", src: "https://cdn.simpleicons.org/git/f05032" },
+    { name: "HTML5", src: "https://cdn.simpleicons.org/html5/e34f26" },
+    { name: "CSS3", src: "https://cdn.simpleicons.org/css3/1572b6" },
+    { name: "Bootstrap", src: "https://cdn.simpleicons.org/bootstrap/7952b3" },
+    { name: "Vercel", src: "https://cdn.simpleicons.org/vercel/000000" },
+    { name: "Docker", src: "https://cdn.simpleicons.org/docker/2496ed" },
+  ];
 
   return (
     <section className="contact-section">
@@ -14,9 +28,24 @@ const Contact = () => {
             <h3>S-Trinity Software Academy</h3>
             <p>+234703401308</p>
             <p>johnjerry8749@gmail.com</p>
-            <a href="https://jun-yu-wu.github.io/" target="_blank" rel="noreferrer">
+            <a
+              href="https://jun-yu-wu.github.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Portfolio
             </a>
+          </div>
+        </div>
+
+        <div className="logo-marquee" aria-label="Technology stack">
+          <div className="logo-track">
+            {[...techLogos, ...techLogos].map((logo, index) => (
+              <div className="logo-item" key={`${logo.name}-${index}`}>
+                <img src={logo.src} alt={logo.name} />
+                <span>{logo.name}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -26,25 +55,31 @@ const Contact = () => {
           width: 100%;
           background: #f4f1f1;
           overflow: hidden;
+          padding: 32px 0;
         }
 
-        .contact-grid {
-          display: grid;
-          grid-template-columns: 0.95fr 1.25fr;
-          min-height: 760px;
-          background: #fff;
+        .contact {
+          width: min(1100px, calc(100% - 32px));
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+          align-items: stretch;
         }
 
         .contact-info-panel {
           display: flex;
           align-items: center;
           justify-content: center;
+          width: 100%;
           background: #f7f4f4;
-          padding: 20px;
+          border-radius: 20px;
+          padding: 24px;
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
         }
 
         .contact-info-box {
-          width: min(100%, 440px);
+          width: min(100%, 760px);
           color: #1d1d1d;
           text-align: left;
         }
@@ -85,83 +120,78 @@ const Contact = () => {
           text-decoration: underline;
         }
 
-        .contact-form-panel {
+        .logo-marquee {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          background: #111111;
+          border-radius: 20px;
+          padding: 18px 0;
+          box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo-track {
+          display: flex;
+          width: max-content;
+          gap: 18px;
+          animation: scrollTech 18s linear infinite;
+        }
+
+        .logo-item {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #ef1d0e;
-          padding: 40px 50px;
-        }
-
-        .contact-form {
-          width: min(100%, 760px);
-          color: #fff;
-        }
-
-        .field-group {
-          margin-bottom: 18px;
-        }
-
-        .field-group label {
-          display: block;
-          margin-bottom: 8px;
-          color: #fff;
-          font-size: clamp(1.1rem, 1.3vw, 2rem);
-          font-weight: 500;
-          letter-spacing: 0.02em;
-        }
-
-        .field-group input,
-        .field-group textarea {
-          width: 100%;
-          border: none;
-          border-bottom: 2px solid rgba(255, 255, 255, 0.9);
-          background: transparent;
-          color: #fff;
-          padding: 8px 0 6px;
-          font-size: 1.05rem;
-          outline: none;
-          resize: none;
-        }
-
-        .field-group input::placeholder,
-        .field-group textarea::placeholder {
-          color: rgba(255, 255, 255, 0.7);
-        }
-
-        .field-group input:focus,
-        .field-group textarea:focus {
-          border-bottom-color: #fff;
-        }
-
-        .send-button {
-          display: inline-block;
-          margin-top: 6px;
-          background: #fff;
-          color: #ef1d0e;
-          border: none;
-          min-width: 210px;
-          padding: 18px 26px;
-          font-size: 1.05rem;
+          gap: 10px;
+          min-width: 170px;
+          padding: 12px 20px;
+          border-radius: 999px;
+          background: rgba(255, 255, 255, 0.08);
+          color: #ffffff;
           font-weight: 700;
-          cursor: pointer;
-          transition: transform 0.2s ease, box-shadow 0.2s ease;
-          box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          white-space: nowrap;
         }
 
-        .send-button:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 12px 22px rgba(0, 0, 0, 0.14);
+        .logo-item img {
+          width: 24px;
+          height: 24px;
+          object-fit: contain;
+          flex-shrink: 0;
         }
 
-        @media (max-width: 991px) {
-          .contact-grid {
-            grid-template-columns: 1fr;
+        .logo-item span {
+          font-size: 0.85rem;
+        }
+
+        @keyframes scrollTech {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-50%);
+          }
+        }
+
+        @media (max-width: 768px) {
+          .contact-section {
+            padding: 20px 0;
           }
 
-          .contact-info-panel,
-          .contact-form-panel {
-            padding: 32px 20px 40px;
+          .contact {
+            width: min(100%, calc(100% - 20px));
+          }
+
+          .contact-info-panel {
+            padding: 16px;
+          }
+
+          .contact-photo {
+            height: 260px;
+          }
+
+          .logo-item {
+            min-width: 140px;
+            padding: 10px 16px;
           }
         }
       `}</style>
