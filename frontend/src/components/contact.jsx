@@ -50,11 +50,11 @@ const Contact = () => {
         </div>
 
 
-        <div className="border shadow p-3 bg-white">
+        <div className="rounded-3 shadow p-3 bg-white">
             <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
            <div className="row gx-2 gy-3 justify-content-center">
             {softSkills.map((skill, index) => (
-              <div key={index} className="col-8 col-sm-6 col-md-6 col-xl-3 d-flex justify-content-center">
+              <div key={index} className="col-12 col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center">
                 <div className="skill-pill border border-muted rounded-2 shadow-sm px-3 py-2 text-center text-dark w-100">
                   {skill}
                 </div>
