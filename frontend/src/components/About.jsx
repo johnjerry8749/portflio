@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Photos from "../assets/photo.png";
 import certificate from "../assets/certification/CompTIA Tech+ certificate.pdf";
+import Contact from "./contact";
 
 const About = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,11 +18,7 @@ const About = () => {
     <div className="about-section p-3 bg-light">
       <div className="row p-2 ">
         <div className="col-12 col-lg-6 py-3 ">
-          <img
-            src={Photos}
-            alt="Profile"
-            className="img-fluid w-100 h-100 object-fit-cover"
-          />
+          <Contact />
         </div>
 
         <div className="col-12 col-lg-6  p-4 mt-2 ">
