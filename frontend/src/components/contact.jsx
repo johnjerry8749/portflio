@@ -5,7 +5,7 @@ const Contact = () => {
 
   return (
     <section className="contact-section">
-      <div className="contact-grid">
+      <div className="contact">
         <div className="contact-info-panel">
           <div className="contact-info-box">
             <img
