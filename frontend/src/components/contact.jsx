@@ -14,6 +14,14 @@ const Contact = () => {
     { name: "Docker", src: "https://cdn.simpleicons.org/docker/2496ed" },
   ];
 
+
+   const softSkills = [
+        "Problem-solving & Resilience",
+        "Innovative & Strategic Thinking",
+      "Self-driven Learning & Time Management",
+
+    ]
+
   return (
     <section className="contact-section">
       <div className="contact">
@@ -28,17 +36,10 @@ const Contact = () => {
             <h3>S-Trinity Software Academy</h3>
             <p>+234703401308</p>
             <p>johnjerry8749@gmail.com</p>
-            <a
-              href="https://jun-yu-wu.github.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Portfolio
-            </a>
           </div>
         </div>
 
-        <div className="logo-marquee" aria-label="Technology stack">
+        <div className="logo-marquee" aria-label="Technology stack ">
           <div className="logo-track">
             {[...techLogos, ...techLogos].map((logo, index) => (
               <div className="logo-item" key={`${logo.name}-${index}`}>
@@ -48,12 +49,26 @@ const Contact = () => {
             ))}
           </div>
         </div>
+
+
+        <div className="border shadow p-3 bg-white">
+            <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
+           <div className="row gx-2 gy-3 justify-content-center">
+            {softSkills.map((skill, index) => (
+              <div key={index} className="col-8 col-sm-6 col-md-6 col-xl-3 d-flex justify-content-center">
+                <div className="skill-pill border border-muted rounded-2 shadow-sm px-3 py-2 text-center text-dark w-100">
+                  {skill}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       <style>{`
         .contact-section {
           width: 100%;
-          background: #f4f1f1;
+         
           overflow: hidden;
           padding: 32px 0;
         }
@@ -75,7 +90,7 @@ const Contact = () => {
           background: #f7f4f4;
           border-radius: 20px;
           padding: 24px;
-          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+          
         }
 
         .contact-info-box {
@@ -91,7 +106,7 @@ const Contact = () => {
           border-radius: 18px;
           display: block;
           margin-bottom: 22px;
-          box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+          
         }
 
         .contact-info-box h2 {
@@ -127,7 +142,7 @@ const Contact = () => {
           background: #111111;
           border-radius: 20px;
           padding: 18px 0;
-          box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+         
         }
 
         .logo-track {

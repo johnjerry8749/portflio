@@ -41,12 +41,7 @@ const Experience = () => {
     "Docker",
   ];
 
-    const softSkills = [
-        "Problem-solving & Resilience",
-        "Innovative & Strategic Thinking",
-      "Self-driven Learning & Time Management",
-
-    ]
+  
   
   return (
     <div className="p-2 mt-2">
@@ -231,19 +226,6 @@ const Experience = () => {
           </div>
         </div>
         </div>
-        <div className="border border-danger p-2 bg-danger">
-            <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
-           <div className="row gx-2 gy-3 justify-content-center">
-            {softSkills.map((skill, index) => (
-              <div key={index} className="col-8 col-sm-6 col-md-6 col-xl-3 d-flex justify-content-center">
-                <div className="skill-pill border border-white rounded-2 shadow-sm px-3 py-2 text-center text-dark w-100">
-                  {skill}
-                </div>
-              </div>
-            ))}
-          </div>
-        
-    </div>
       </div>
     
 
