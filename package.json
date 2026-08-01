@@ -1,4 +1,9 @@
 {
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8"
   }
