@@ -8,7 +8,6 @@ const Contact = () => {
     { name: "GitHub", src: "https://cdn.simpleicons.org/github/181717" },
     { name: "Git", src: "https://cdn.simpleicons.org/git/f05032" },
     { name: "HTML5", src: "https://cdn.simpleicons.org/html5/e34f26" },
-    { name: "CSS3", src: "https://cdn.simpleicons.org/css3/1572b6" },
     { name: "Bootstrap", src: "https://cdn.simpleicons.org/bootstrap/7952b3" },
     { name: "Vercel", src: "https://cdn.simpleicons.org/vercel/000000" },
     { name: "Docker", src: "https://cdn.simpleicons.org/docker/2496ed" },
@@ -139,7 +138,7 @@ const Contact = () => {
           width: 100%;
           overflow: hidden;
           position: relative;
-          background: #111111;
+
           border-radius: 20px;
           padding: 18px 0;
          
@@ -160,10 +159,9 @@ const Contact = () => {
           min-width: 170px;
           padding: 12px 20px;
           border-radius: 999px;
-          background: rgba(255, 255, 255, 0.08);
-          color: #ffffff;
+          color: #fb0d0d;
           font-weight: 700;
-          border: 1px solid rgba(255, 255, 255, 0.1);
+          border: 2px solid rgba(2, 0, 0, 0.1);
           white-space: nowrap;
         }
 
