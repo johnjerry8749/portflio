@@ -1,19 +1,16 @@
-
 import "../css/message.css";
-
 
 const Message = () => {
   return (
     <section className="contact-section py-5">
       <div className="container">
         <div className="row justify-content-center align-items-center g-5">
-
           {/* Left Side */}
           <div className="col-lg-5 contact-info">
             <h2 className="fw-bold mb-3">Get In Touch</h2>
             <p className="text-muted">
-              We'd love to hear from you. Whether you have a project,
-              a question, or just want to say hello, send us a message.
+              We'd love to hear from you. Whether you have a project, a
+              question, or just want to say hello, send us a message.
             </p>
 
             <div className="mt-4">
@@ -38,9 +35,7 @@ const Message = () => {
           {/* Right Side */}
           <div className="col-lg-6">
             <div className="contact-card">
-
               <form>
-
                 <div className="mb-3">
                   <label className="form-label">Full Name</label>
                   <input
@@ -80,12 +75,9 @@ const Message = () => {
                 <button className="btn btn-dark w-100 py-2">
                   Send Message
                 </button>
-
               </form>
-
             </div>
           </div>
-
         </div>
       </div>
     </section>
