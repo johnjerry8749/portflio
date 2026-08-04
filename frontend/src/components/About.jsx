@@ -157,7 +157,9 @@ const About = () => {
 
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
-                  <span className="text-dark">Database Management in Excel</span>
+                  <span className="text-dark">
+                    Database Management in Excel
+                  </span>
                   <span className="text-muted">87%</span>
                 </div>
                 <div
