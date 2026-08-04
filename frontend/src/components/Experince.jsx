@@ -46,20 +46,7 @@ const Experience = () => {
       ],
       side: "left",
     },
-    {
-      date: "2023 - 2024",
-      title: "Front-End Web Developer (IT Student)",
-      subtitle: "GenAI-Driven RAG Dialogue System",
-      company: "Binary Tech & Digital Solution",
-      details: [
-        " • Designed responsive websites using HTML, CSS, JavaScript, and React",
-        " • Integrated APIs and databases into web projects",
-        " • Collaborated with team members to deliver client projects",
-        " • Resolved technical and user-interface issues",
-
-      ],
-      side: "right",
-    },
+    
   ];
 
   const skills = [
