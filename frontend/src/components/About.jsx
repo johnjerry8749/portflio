@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Photos from "../assets/photo.png";
+import photos from "../assets/photo.jpg";
 import certificate from "../assets/certification/CompTIA Tech+ certificate.pdf";
 import Contact from "./contact";
 
