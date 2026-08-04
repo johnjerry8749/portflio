@@ -7,7 +7,7 @@ import Message from "./message.jsx";
 import Footer from "./Footer.jsx";
 
 const Home = () => {
-  const titles = ["web developer", "App developer", "UI/UX designer"];
+  const titles = ["FullStack web developer", "App developer", "UI/UX designer"];
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
