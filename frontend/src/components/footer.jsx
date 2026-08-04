@@ -1,9 +1,20 @@
-
 const socialLinks = [
-  { href: "https://github.com/johnjerry8749", label: "GitHub", icon: "bi bi-github" },
-  { href: "https://www.linkedin.com/in/nwadike-chukwuemeka", label: "LinkedIn", icon: "bi bi-linkedin" },
+  {
+    href: "https://github.com/johnjerry8749",
+    label: "GitHub",
+    icon: "bi bi-github",
+  },
+  {
+    href: "https://www.linkedin.com/in/nwadike-chukwuemeka",
+    label: "LinkedIn",
+    icon: "bi bi-linkedin",
+  },
   { href: "https://twitter.com", label: "Twitter", icon: "bi bi-twitter-x" },
-  { href: "mailto:johnjerry8749@gmail.com", label: "Email", icon: "bi bi-envelope" },
+  {
+    href: "mailto:johnjerry8749@gmail.com",
+    label: "Email",
+    icon: "bi bi-envelope",
+  },
 ];
 
 const Footer = () => {
@@ -11,7 +22,6 @@ const Footer = () => {
     <footer className="bg-danger text-light pt-5 pb-3">
       <div className="container">
         <div className="row g-4">
-
           {/* Brand */}
           <div className="col-lg-4 col-md-6">
             <h3 className="fw-bold fs-3">
@@ -79,7 +89,6 @@ const Footer = () => {
               ))}
             </div>
           </div>
-
         </div>
 
         <hr className="border-secondary my-4" />
