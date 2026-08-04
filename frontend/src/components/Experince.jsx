@@ -3,7 +3,6 @@ const Experience = () => {
     {
       date: "2023 - 2024",
       title: "Front-End Web Developer (IT Student)",
-      subtitle: "GenAI-Driven RAG Dialogue System",
       company: "Binary Tech & Digital Solution",
       details: [
         " • Designed responsive websites using HTML, CSS, JavaScript, and React",
@@ -17,7 +16,6 @@ const Experience = () => {
     {
       date: "2024-2025",
       title: "IT Support/Computer Operator",
-      subtitle: "GenAI-Driven ESG Report Generation",
       company: "S-Trinity Computer Business Center",
       details: [
         " • Provided daily IT support to clients, including document typing,   formatting, printing, and scanning",
