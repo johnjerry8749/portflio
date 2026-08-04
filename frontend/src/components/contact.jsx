@@ -31,7 +31,8 @@ const Contact = () => {
           <div className="contact-info-box">
             <img
               className="contact-photo"
-              src={photos }
+              src={photos}
+              alt=" profile"
             />
             <h2>Nwadike Chukwuemeka</h2>
             <h3>S-Trinity Software Academy</h3>
