@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../layout/Navbar.jsx";
 import About from "./About.jsx";
-import photos from "../assets/photo.png";
+import photos from "../assets/photo.jpg";
 import Experince from "./Experince.jsx";
 import Message from "./message.jsx";
 import Footer from "./Footer.jsx";
