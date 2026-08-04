@@ -102,13 +102,14 @@ const Contact = () => {
         }
 
         .contact-photo {
-          width: 100%;
-          height: 320px;
+          width: min(100%, 560px);
+          height: 420px;
           object-fit: cover;
+          object-position: center top;
           border-radius: 18px;
           display: block;
-          margin-bottom: 22px;
-          
+          margin: 0 auto 22px;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
         }
 
         .contact-info-box h2 {
@@ -202,7 +203,10 @@ const Contact = () => {
           }
 
           .contact-photo {
-            height: 260px;
+            width: 100%;
+            max-width: 420px;
+            height: 360px;
+            object-position: center 18%;
           }
 
           .logo-item {
