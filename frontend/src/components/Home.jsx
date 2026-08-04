@@ -48,9 +48,7 @@ const Home = () => {
             <div className="col p-3 fs-1 fw-bolder text-light text-start">
               <div className="banner-textbox m-3 p-4">
                 <h1 className="fs-1 fw-bolder text-light">I'm</h1>
-                <p className="fs-1 fw-bolder text-light">
-                  Nwadike Chukwuemeka
-                </p>
+                <p className="fs-1 fw-bolder text-light">Nwadike Chukwuemeka</p>
                 <p className="banner-text-animation fs-1 fw-bold text-light">
                   <span className="typing-text">{displayText}</span>
                 </p>
@@ -107,7 +105,11 @@ const Home = () => {
             <div className="col-5 d-none p-2 d-lg-block">
               <div className="banner-image">
                 <div className="profile-ring">
-                  <img src={photos} className="profile-photo" alt="Nwadike Chukwuemeka" />
+                  <img
+                    src={photos}
+                    className="profile-photo"
+                    alt="Nwadike Chukwuemeka"
+                  />
                 </div>
               </div>
             </div>
