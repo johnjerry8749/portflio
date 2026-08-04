@@ -1,26 +1,63 @@
 const Experience = () => {
   const items = [
     {
-      date: "2024 - Now",
-      title: "Research Assistant",
+      date: "2023 - 2024",
+      title: "Front-End Web Developer (IT Student)",
       subtitle: "GenAI-Driven RAG Dialogue System",
-      company: "ABC-ATEC Electronics Group",
+      company: "Binary Tech & Digital Solution",
       details: [
-        "Developed an industrial-grade multimodal AI system for corporate training and automation.",
-        "Designed a private RAG system to improve knowledge retrieval efficiency.",
-        "Reduced AI workflow latency by 40%, enhancing real-time communication.",
+        " • Designed responsive websites using HTML, CSS, JavaScript, and React",
+        " • Integrated APIs and databases into web projects",
+        " • Collaborated with team members to deliver client projects",
+        " • Resolved technical and user-interface issues",
+
       ],
       side: "left",
     },
     {
-      date: "2024 - 2025",
-      title: "Research Assistant",
+      date: "2024-2025",
+      title: "IT Support/Computer Operator",
       subtitle: "GenAI-Driven ESG Report Generation",
-      company: "Industrial Technology Research Institute (ITRI)",
+      company: "S-Trinity Computer Business Center",
       details: [
-        "Built an AI-driven ESG report generation workflow using Generative AI and fine-tuned models.",
-        "Automated sustainability reporting for improved compliance and consistency.",
-        "Collaborated with cross-functional teams to deliver solutions on schedule.",
+        " • Provided daily IT support to clients, including document typing,   formatting, printing, and scanning",
+        " • Assisted users with internet browsing, online research, email setup, and form submissions",
+        " • Handled online registrations such as school applications, exams, job portals, and government services",
+        " • Created and edited documents using Microsoft Word, Excel, and PowerPoint",
+        " • Prepared spreadsheets, basic data analysis, and reports using Microsoft Excel",
+        "• Designed flyers, certificates, and basic graphics using CorelDRAW",
+        "• Troubleshot common computer issues including software errors, printer problems, and system setup",
+        "• Managed file organization, backups, and safe handling of client data",
+        "• Maintained computer systems to ensure smooth daily operations",
+
+      ],
+      side: "right",
+    },
+    {
+      date: "2023 - 2024",
+      title: "Front-End Web Developer (IT Student)",
+      subtitle: "GenAI-Driven RAG Dialogue System",
+      company: "Binary Tech & Digital Solution",
+      details: [
+        " • Designed responsive websites using HTML, CSS, JavaScript, and React",
+        " • Integrated APIs and databases into web projects",
+        " • Collaborated with team members to deliver client projects",
+        " • Resolved technical and user-interface issues",
+
+      ],
+      side: "left",
+    },
+    {
+      date: "2023 - 2024",
+      title: "Front-End Web Developer (IT Student)",
+      subtitle: "GenAI-Driven RAG Dialogue System",
+      company: "Binary Tech & Digital Solution",
+      details: [
+        " • Designed responsive websites using HTML, CSS, JavaScript, and React",
+        " • Integrated APIs and databases into web projects",
+        " • Collaborated with team members to deliver client projects",
+        " • Resolved technical and user-interface issues",
+
       ],
       side: "right",
     },
