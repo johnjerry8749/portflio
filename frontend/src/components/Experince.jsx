@@ -34,16 +34,15 @@ const Experience = () => {
       side: "right",
     },
     {
-      date: "2023 - 2024",
-      title: "Front-End Web Developer (IT Student)",
-      subtitle: "GenAI-Driven RAG Dialogue System",
+      date: "2025 - 2026",
+      title: "Teaching Assistant",
+      subtitle: "Integrated Oasis ICT Service Center",
       company: "Binary Tech & Digital Solution",
       details: [
-        " • Designed responsive websites using HTML, CSS, JavaScript, and React",
-        " • Integrated APIs and databases into web projects",
-        " • Collaborated with team members to deliver client projects",
-        " • Resolved technical and user-interface issues",
-
+        " • Guided 40+ students in JavaScript, React, and Node.js for full-stack web development",
+        " • Delivered lessons in English and explained complex programming concepts in a clear, student-friendly way",
+        " • Supported learners with hands-on coding exercises, debugging guidance, and project-based learning",
+        " • Helped students improve practical web development skills and received positive feedback on teaching quality",
       ],
       side: "left",
     },
