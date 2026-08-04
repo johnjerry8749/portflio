@@ -105,8 +105,10 @@ const Home = () => {
               </div>
             </div>
             <div className="col-5 d-none p-2 d-lg-block">
-              <div className="banner-image p-3 border">
-                <img src={photos} className="img-fluid " />
+              <div className="banner-image">
+                <div className="profile-ring">
+                  <img src={photos} className="profile-photo" alt="Nwadike Chukwuemeka" />
+                </div>
               </div>
             </div>
           </div>
@@ -115,7 +117,69 @@ const Home = () => {
       <About />
       <Experince />
       <Message />
-      < Footer />
+      <Footer />
+
+      <style>{`
+        .banner-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 500px;
+          padding: 20px;
+        }
+
+        .profile-ring {
+          position: relative;
+          width: min(37vw, 380px);
+          height: min(37vw, 380px);
+          border-radius: 50%;
+          padding: 8px;
+          background: linear-gradient(135deg, rgba(166, 30, 30, 0.45), rgba(255,255,255,0.2), rgba(255,255,255,0.9));
+          box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18), 0 0 0 10px rgba(255, 255, 255, 0.1);
+          animation: floatProfile 4s ease-in-out infinite;
+        }
+
+        .profile-ring::before {
+          content: "";
+          position: absolute;
+          inset: -6px;
+          border-radius: 50%;
+          background: linear-gradient(135deg, #fc23236c, rgba(255,255,255,0.15), #ffe6e6, #ffffff);
+          z-index: -1;
+          filter: blur(4px);
+        }
+
+        .profile-photo {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center top;
+          border-radius: 50%;
+          display: block;
+          border: 4px solid rgba(191, 127, 30, 0.9);
+          background: #e7232394;
+        }
+
+        @keyframes floatProfile {
+          0%, 100% {
+            transform: translateY(0px) scale(1);
+          }
+          50% {
+            transform: translateY(-8px) scale(1.02);
+          }
+        }
+
+        @media (max-width: 991px) {
+          .banner-image {
+            min-height: 320px;
+          }
+
+          .profile-ring {
+            width: min(70vw, 300px);
+            height: min(70vw, 300px);
+          }
+        }
+      `}</style>
     </div>
   );
 };
