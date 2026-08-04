@@ -1,3 +1,6 @@
+import photos from "../assets/photo.jpg";
+
+
 const Contact = () => {
   const techLogos = [
     {
@@ -28,8 +31,7 @@ const Contact = () => {
           <div className="contact-info-box">
             <img
               className="contact-photo"
-              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
-              alt="Cartoon profile"
+              src={photos }
             />
             <h2>Nwadike Chukwuemeka</h2>
             <h3>S-Trinity Software Academy</h3>
