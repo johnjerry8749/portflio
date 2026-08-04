@@ -19,12 +19,13 @@ const Message = () => {
             <div className="mt-4">
               <div className="mb-3">
                 <h6>Email</h6>
-                <p>contact@example.com</p>
+                <p>johnjerry8749@gmail.com || nwadikeati@gmail.com</p>
               </div>
 
               <div className="mb-3">
                 <h6>Phone</h6>
-                <p>+234 800 123 4567</p>
+                <p>+234 7043401308</p>
+                <p>+234 9038584940</p>
               </div>
 
               <div>
