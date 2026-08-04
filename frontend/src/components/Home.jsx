@@ -4,6 +4,7 @@ import About from "./About.jsx";
 import photos from "../assets/photo.png";
 import Experince from "./Experince.jsx";
 import Message from "./message.jsx";
+import Footer from "./Footer.jsx";
 
 const Home = () => {
   const titles = ["web developer", "App developer", "UI/UX designer"];
@@ -114,6 +115,7 @@ const Home = () => {
       <About />
       <Experince />
       <Message />
+      < Footer />
     </div>
   );
 };
