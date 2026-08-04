@@ -1,6 +1,5 @@
 import photos from "../assets/photo.jpg";
 
-
 const Contact = () => {
   const techLogos = [
     {
@@ -16,24 +15,18 @@ const Contact = () => {
     { name: "Docker", src: "https://cdn.simpleicons.org/docker/2496ed" },
   ];
 
-
-   const softSkills = [
-        "Problem-solving & Resilience",
-        "Innovative & Strategic Thinking",
-      "Self-driven Learning & Time Management",
-
-    ]
+  const softSkills = [
+    "Problem-solving & Resilience",
+    "Innovative & Strategic Thinking",
+    "Self-driven Learning & Time Management",
+  ];
 
   return (
     <section className="contact-section">
       <div className="contact">
         <div className="contact-info-panel">
           <div className="contact-info-box">
-            <img
-              className="contact-photo"
-              src={photos}
-              alt=" profile"
-            />
+            <img className="contact-photo" src={photos} alt=" profile" />
             <h2>Nwadike Chukwuemeka</h2>
             <h3>S-Trinity Software Academy</h3>
             <p>+234703401308</p>
@@ -52,12 +45,14 @@ const Contact = () => {
           </div>
         </div>
 
-
         <div className="rounded-3 shadow p-2 bg-white">
-            <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
-           <div className="row gx-2 gy-3 justify-content-center">
+          <h1 className="fs-5 fw-bold text-center text-dark">Soft Skills</h1>
+          <div className="row gx-2 gy-3 justify-content-center">
             {softSkills.map((skill, index) => (
-              <div key={index} className="col-12 col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center">
+              <div
+                key={index}
+                className="col-12 col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center"
+              >
                 <div className="skill-pill border border-muted rounded-2 shadow-sm px-3 py-2 text-center text-dark w-100">
                   {skill}
                 </div>
