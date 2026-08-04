@@ -4,7 +4,7 @@ import About from "./About.jsx";
 import photos from "../assets/photo.jpg";
 import Experince from "./Experince.jsx";
 import Message from "./message.jsx";
-import Footer from "./Footer.jsx";
+import Footer from "./footer.jsx";
 
 const Home = () => {
   const titles = ["FullStack web developer", "App developer", "UI/UX designer"];
