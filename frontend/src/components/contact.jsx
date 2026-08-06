@@ -16,9 +16,10 @@ const Contact = () => {
   ];
 
   const softSkills = [
-    "Problem-solving & Resilience",
+    "Bug Fixing",
     "Innovative & Strategic Thinking",
     "Self-driven Learning & Time Management",
+    "Codebase Refactoring & Optimization",
   ];
 
   return (
