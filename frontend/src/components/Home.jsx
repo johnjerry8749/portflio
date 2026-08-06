@@ -39,7 +39,7 @@ const Home = () => {
   }, [displayText, isDeleting, currentTitleIndex, titles]);
 
   return (
-    <div>
+    <div className="home" data-aos="fade-up">
       <Navbar />
 
       <div className="Banner p-3 d-flex gap-3 justify-content-center bg-danger ">
