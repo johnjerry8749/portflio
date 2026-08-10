@@ -27,18 +27,18 @@ A personal portfolio website to showcase projects, case studies, and professiona
 - Project gallery with descriptions and links
 - Responsive layout
 - Contact / resume download
-- Blog or case studies (optional)
+
 
 ## Tech stack
 
 List the main languages, frameworks, and tools used in this repo. Example:
 
 - HTML, CSS, JavaScript
-- Framework: React / Next.js / Vue / Svelte / plain HTML
+- Framework: React / Next.js / Vue 
 - Build tools: Vite / Webpack / Parcel
-- Hosting: GitHub Pages / Netlify / Vercel
+- Hosting: GitHub Pages / Vercel
 
-(Replace or remove items that don't apply.)
+
 
 ## Getting started
 
@@ -66,9 +66,6 @@ Start the development server (if applicable):
 
 npm run dev
 # or
-npm start
-
-Open http://localhost:3000 (or the port your framework uses).
 
 ## Deployment
 
@@ -88,14 +85,7 @@ Contributions are welcome. Suggested workflow:
 3. Commit your changes: `git commit -m "feat: add ..."`
 4. Push and open a pull request
 
-Please add a clear description and screenshots where relevant.
 
-## License
 
-Add a license (e.g., MIT). If you don't want to add a license, state that all rights are reserved.
-
-## Contact
-
-Your Name — your.email@example.com
 
 Project link: https://github.com/johnjerry8749/portflio
