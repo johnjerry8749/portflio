@@ -39,9 +39,9 @@ const About = () => {
             in front-end and full-stack web development. Certified CompTIA Tech+
             professional with strong foundational knowledge in hardware,
             software, networking, troubleshooting, and security concepts.
-            Skilled in HTML, CSS, JavaScript, React, PHP, and Word Press, with a
-            passion for solving technical problems and supporting users
-            effectively.
+            Skilled in HTML, CSS, JavaScript, TypeScript, React, React Native,
+            Node.js, PHP, WordPress, and Supabase, with a passion for solving
+            technical problems and supporting users effectively.
           </p>
           <div className="mt-3">
             <div className=" mt-2 p-3 shadow rounded">
@@ -136,7 +136,7 @@ const About = () => {
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1">
                   <span className="text-dark">
-                    React.js|| Node.js ||API Development
+                    React.js || Node.js || API Development
                   </span>
                   <span className="text-muted">90%</span>
                 </div>
@@ -149,6 +149,66 @@ const About = () => {
                     role="progressbar"
                     style={{ width: "90%" }}
                     aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">React Native</span>
+                  <span className="text-muted">88%</span>
+                </div>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "88%" }}
+                    aria-valuenow="88"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">TypeScript</span>
+                  <span className="text-muted">90%</span>
+                </div>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "90%" }}
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <div className="d-flex justify-content-between mb-1">
+                  <span className="text-dark">Supabase & PostgreSQL</span>
+                  <span className="text-muted">88%</span>
+                </div>
+                <div
+                  className="progress bg-secondary"
+                  style={{ height: "10px" }}
+                >
+                  <div
+                    className="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "88%" }}
+                    aria-valuenow="88"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   />
