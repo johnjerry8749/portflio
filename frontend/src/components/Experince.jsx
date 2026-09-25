@@ -46,6 +46,8 @@ const Experience = () => {
 
   const skills = [
     "React.js & Node.js",
+    "React Native",
+    "TypeScript",
     "HTML & Bootstrap",
     "PostgreSQL & Supabase",
     "JavaScript",
